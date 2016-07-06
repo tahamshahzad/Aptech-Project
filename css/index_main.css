@@ -1,0 +1,72 @@
+.myButton {
+    background-color: #E74C3C;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: raleway;
+    font-size: 14px;
+    padding: 14px 20px;
+    text-decoration: none;
+    border:3px solid transparent;
+    margin-top: 30px;
+	-webkit-transition:all .15s;
+	-moz-transition:all .15s;
+}
+.myButton:hover {
+    
+    border:3px solid #EF4836;
+    background-color: #fff;
+	color:#EF4836;
+}
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.outer { 
+	background-color: #fff; 
+	background-image:url("../images/bg_images/background-world-map.gif");
+	background-size:contain;
+	background-position:center;	
+	background-repeat:no-repeat;
+	font-family: raleway;	
+	color:#595959;
+}
+.slogan {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+	
+}
+.slogan:nth-child(5) { padding-top: 10px }
+.wel_mess_div {
+    width: 90%;
+    height: 500px;
+    padding-bottom:30px;
+}
+.welcome_content_main {
+    position: absolute;
+    bottom: 0;
+}
+.welcome_content {
+    width: 49%;
+    height: inherit;
+    display: inline-block;
+    position: relative;
+}
+.welcome_content_pic {
+    background-image: url("../images/landing_page_img/iPad air 2.png");
+    background-repeat: no-repeat;
+    background-position:50% 39px;
+    height: inherit;
+    width: 49%;
+    background-size: contain;
+    display: inline-block;
+}
+.caption {
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: -7px;
+}
+

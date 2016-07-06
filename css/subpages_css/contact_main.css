@@ -1,0 +1,95 @@
+/* contains styling for contact page */
+
+.contact_us_div {
+width:80%;
+margin-top:56px;
+
+}
+.iframe_map {
+margin-bottom:50px;
+}
+
+.heading_caption {
+font-weight:300;
+font-size:18px;
+color:#595959;
+}
+.contact_form_div {
+border-radius:5px;
+background-color:#f9f9f9;
+padding:10px;
+margin-bottom:50px;
+width:980px;
+}
+#email {
+background-image:url("../../images/png_icon/email20.png");
+background-repeat:no-repeat;
+
+
+}
+#phone {
+background-image:url("../../images/png_icon/phone16.png");
+background-repeat:no-repeat;
+}
+#name {
+background-image:url("../../images/png_icon/user168.png");
+background-repeat:no-repeat;
+}
+.table_td_input {
+background-position:10px center;
+background-size:20px;
+border-radius:4px;
+border:1px solid #ccc;
+padding:16px 12px;
+padding-left:40px;
+width:300px;
+font-family:raleway;
+}
+.input_name {
+width:926px;
+margin-top:10px;
+}
+.text_area {
+padding:12px;
+width:954px;
+height:250px;
+}
+.contact_button {
+border-radius:4px;
+margin-top:10px;
+padding:14px 0px;
+width:974px;
+text-align:center;
+}
+.number_and_sm_div {
+
+
+margin-bottom:70px;
+}
+
+.number_and_sm:nth-child(1) {
+
+}
+
+.add_heading {
+margin-top:10px;
+display:inline-block;
+font-weight:500;
+padding:5px 0px;
+font-family:raleway;
+
+}
+.add_content {
+
+font-weight:300;
+font-family:roboto Slab;
+padding-bottom:10px;
+padding-left: 28px;
+}
+.add_content a {
+text-decoration:none; 
+color:#E74C3C;
+}
+.add_content a:hover { 
+text-decoration:underline;
+}

@@ -1,0 +1,518 @@
+/* range of products Styling */
+
+
+
+a {
+cursor:pointer;
+}
+.myButton_small_rop {
+background-color: #00B7D8;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: raleway;
+    font-size: 14px;
+    text-decoration: none;
+    border:3px solid transparent;
+    -webkit-transition:all .15s;
+	-moz-transition:all .15s;
+    padding:7px 0px;
+	width:80px;
+	text-align:center;
+	
+}
+
+.myButton_small_rop:hover {
+    border:3px solid #00B7D8;
+    background-color: #fff;
+	color:#00B7D8;
+}
+.myButton_small_rop:active {
+    position: relative;
+    top: 1px;
+}
+.login_bar {
+height:40px;
+background-color:#FFF;
+border-bottom:1px solid #ccc;
+position:fixed;
+
+width:100%;
+z-index:100;
+
+}
+.inner_login_bar {
+width:90%;
+}
+
+.cart_ul {
+line-height:40px;
+color:#595959;
+font-size:14px;
+
+
+
+}
+.cart_ul_li {
+list-style:none;
+display:inline-block;
+
+}
+.cart_ul a {
+text-decoration:none;
+color:#595959;
+font-weight:bold;
+
+}
+.cart_ul a:hover {
+text-decoration:underline;
+color:#E74C3C;
+}
+.after_content {
+margin-top:60px;
+}
+
+.side_bar_main {
+display:inline-block;
+
+
+
+}
+
+.after_content {
+
+}
+.products_sec_wrap {
+
+width:100%;
+margin-top:41px;
+
+
+
+
+}
+.products_sec_main {
+
+width:90%;
+
+	
+
+
+} 
+.cat_main {
+
+
+}
+.cat_ul {
+line-height:40px;
+}
+.cat_li {
+list-style:none;
+
+display:inline-block;
+}
+.cat_li a {
+
+text-decoration:none;
+color:#595959;
+cursor:pointer;
+font-size:14px;
+padding-right:10px;
+
+
+
+}
+
+.cat_li a:hover {
+text-decoration:underline;
+color:#E74C3C;
+
+}
+
+.brands_select_wrap {
+box-shadow:0px 2px 4px -1px rgba(0,0,0,0.4);
+position:fixed;
+background-color:#fff;
+width:100%;
+
+
+
+}
+
+.brands_wrap_main {
+width:90%;
+background-color:#fff;
+padding:10px 0px;
+}
+
+.brands_select, .device_select 
+{
+display:inline-block;
+}
+.brand_ul {
+
+display:inline-block;
+
+}
+
+
+
+.brand_li:nth-child(1), .brand_li:nth-child(1) a {
+border-radius:3px 0px 0px 3px;
+}
+
+.li_round_bord,.li_round_bord a {
+border-radius:0px 3px 3px 0px;
+}
+.brand_li div {
+text-decoration:none;
+font-size:14px;
+font-weight:500;
+padding:10px 10px;
+display:block;
+
+}
+
+
+.alone {
+border-radius:3px;
+border:1px solid #ccc;
+}
+
+
+.brand_li:hover {
+box-shadow: inset 0 1px 2px 0px rgba(0,0,0,.1);
+background-color:#fcfcfc;
+}
+
+.brand_li:active {
+box-shadow: inset 0px 1px 3px 1px rgba(0,0,0,.2) !important;
+background-color:#ea3a2a !important;
+color:#fff;
+}
+
+.brand_li {
+list-style:none;
+display:inline-block;
+border:1px solid #ccc;
+text-align:center;
+margin-left:-1px;
+cursor:pointer;
+font-size:14px;
+
+}
+
+input[type=radio],  input[type=checkbox] {
+    display:none; 
+    margin:10px;
+}
+
+
+input[type=radio] + label, input[type=checkbox] + label {
+    display:inline-block;
+    padding: 10px 10px;   
+    border-color: #ccc;
+	
+	cursor:pointer;
+	
+}
+
+input[type=radio]:checked + label, input[type=checkbox]:checked + label {
+    background-color: #f44535 !important;
+	color:#FFF !important;
+	box-shadow: inset 0 1px 3px 0px rgba(0,0,0,.2) !important;
+	
+}
+
+input[type=checkbox]:checked + label:active, input[type=radio]:checked + label:active {
+box-shadow: inset 0px 1px 3px 1px rgba(0,0,0,.2) !important;
+background-color:#ea3a2a !important;
+color:#fff;
+}
+
+
+/******************/
+
+.subpages_heading {
+    
+	margin:0px 0px 5px 0px !important;	   
+    
+}
+
+.prod_wrap {
+
+text-align:center;
+margin-bottom:50px;
+font-family:PT Sans;
+}
+
+.box {
+margin-top:10px;
+display:inline-block;
+width:24%;
+border:1px solid #ccc;
+box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2);
+background-color:#fff;
+border-radius:7px 7px 0px 0px;
+
+
+}
+
+.img {
+width:90%;
+height:270px;
+margin:10px auto;
+
+}
+
+.more {
+text-align:left;
+height:200px;
+
+}
+.prod_name {
+margin-left:15px;
+text-decoration:none;
+font-size:20px;
+color:#595959;
+
+
+}
+.prod_name:hover {
+
+color:#E74C3C;
+
+
+}
+.low_btn {
+text-align:center;
+border-top:1px solid #ccc;
+margin-top:20px;
+
+}
+.buy_see_btn {
+
+}
+.low_btn_main {
+display:inline-block;
+list-style:none;
+width:50%;
+
+
+
+
+}
+.low_btn_buy{
+background-color:#00B7D8;
+border:3px solid #00B7D8;
+
+}
+
+.low_btn_buy:hover{
+background-color:#FFF;
+color:#00B7D8
+}
+.low_btn_details {
+background-color:#f44535;
+border:3px solid #f44535;
+}
+.low_btn_details:hover {
+background-color:#FFF;
+color:#f44535
+}
+.low_btn_a {
+padding:12px 0px;
+display:block;
+color:#fff;
+font-weight:bold;
+text-decoration:none;
+text-transform:uppercase;
+font-size:14px;
+-webkit-transition:all .5s ease-in-out;
+
+}
+.price {
+margin-bottom:10px;
+margin-left:15px;
+}
+.main_price {
+font-size:18px;
+color:#222222;
+}
+.buy_tag a{
+text-decoration:none;
+color:#E74C3C;
+}
+
+.buy_tag a:hover{
+text-decoration:underline;
+
+}
+.prop_li {
+padding:7px 0px;
+}
+
+.details_div_container {
+position:fixed;
+top:0;
+bottom:0;
+background-color:rgba(0,0,0,0.7);
+z-index:9999;
+visibility:hidden;
+opacity:0;
+-webkit-transition:opacity .25s;
+
+
+}
+
+.details_div {
+width:980px;
+height:550px;
+background-color:#fff;
+
+
+
+
+} 
+
+.details_div_main {
+position:relative;
+
+}
+
+
+.close_cross:hover {
+opacity:0.5;
+
+}
+
+.close_cross:active {
+opacity:1;
+
+}
+
+.theatre {
+height:100%;
+width:60%;
+display:inline-block;
+background-color:#000;
+}
+
+.theatre_pic {
+width:80%;
+height:100%;
+background-position:center;
+background-size:contain;
+background-repeat:no-repeat;
+
+} 
+
+.left_right {
+position:relative; 
+top:260px;
+width:95%;
+} 
+
+.left_right span {
+font-size:35px;
+color:#ddd;
+cursor:pointer;
+}
+
+
+.theatre_details {
+height:100%;
+display:inline-block;
+width:40%;
+
+}
+
+#closeBtn {
+margin:5px;
+font-size:22px;
+cursor:pointer;
+}
+
+#details_table_main {
+
+
+}
+.prop_main {
+width:100%;
+font-family:raleway;
+text-align:center;
+}
+
+
+.prop_main td {
+border:2px solid #fff;
+padding:8px 0px;
+font-size:12px;
+text-align:left;
+padding-left:7px;
+
+}
+
+.td_main_color {
+background-color:#f9f9f9;
+}
+
+.td_alternate_color {
+background-color:#E7E7E7;
+}
+
+.prop_main tr>td:nth-child(1) {
+font-weight:bold;
+}
+
+.prop_main th {
+border:2px solid #fff;
+color:#fff;
+background-color:#f44535; 
+padding:7px 0px;
+}
+
+.details_inner_btns {
+position:absolute;
+
+bottom:0;
+}
+.cont_for_mar {
+margin-bottom:30px;
+}
+.theatre_cont {
+height:100%;
+position:relative;
+width:85%;
+
+}
+
+.properties_table {
+margin-top:30px;
+}
+
+.price_tag_big_cont {
+margin-top:25px;
+text-align:center;
+}
+
+.price_main {
+display:inline-block;
+font-family:Roboto Slab;
+font-size:28px;
+font-weight:300;
+color:#f9f9f9;
+background-color:#f44535;
+padding:10px 0px;
+width:100%;
+position:relative;
+border:3px solid transparent;
+
+}
+.price_main:hover {
+border:3px solid #f44535;
+background-color:#f9f9f9;
+color:#f44535;
+
+
+}

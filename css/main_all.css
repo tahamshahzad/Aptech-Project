@@ -1,0 +1,280 @@
+/* this css fiel works on all pages for navigation bar, outer div, and footer styling*/
+
+.test_ele {
+background-color:#ccc;
+}
+.myButton_small {
+    background-color: #E74C3C;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: raleway;
+    font-size: 14px;
+    padding: 14px 20px;
+    text-decoration: none;
+    border:3px solid transparent;
+    -webkit-transition:all .15s;
+	-moz-transition:all .15s;
+    margin-top: 15px;
+}
+.myButton_small:hover {
+    border:3px solid #EF4836;
+    background-color: #fff;
+	color:#EF4836;
+}
+.myButton_small:active {
+    position: relative;
+    top: 1px;
+}
+
+@font-face {
+    font-family: logo Italic;
+    src: url("../fonts/hemi head bd it.ttf");
+}
+
+body {
+    
+    background-color: #f9f9f9;
+}
+
+.wrapper {
+	background-color:#fff;
+    width: 100%;
+	
+	
+    }
+
+.outer {
+margin-top:54px;
+background-color:#fff;
+color:#595959;
+font-family:raleway;
+}
+
+.subpages_heading {
+    font-family: Roboto Slab;
+    font-weight: 500;
+    font-size: 32px;
+	padding:0px 0px !important;
+	margin:20px 0px 5px 0px !important;
+	border-bottom:2px solid rgba(221, 219, 219, 0.3);
+	color:#E74C3C;   
+    
+}
+
+.subpages_subheading {
+	font-family: Roboto Slab;
+    font-weight: 500;
+    font-size: 22px;
+	margin-left:10px ;
+
+}
+/* Pre-defined Classes To minimize Repetition */  
+
+.clear { clear: both }
+.full_page_w_h {
+    width: 100%;
+    height: 100%;
+}
+.full_page_w { width: 100% }
+.full_page_h { height: 100% }
+.go_right { float: right }
+.go_left { float: left }
+.all_zero {
+    margin: 0;
+    padding: 0;
+}
+.margin_zero_auto { margin: 0 auto }
+.no_margin_collapse { padding-top: 1px }
+
+/* Pre-defined Classes CSS End */
+
+/* Company Logo CSS (different Sizes) */
+
+.logo {
+	font-family: logo Italic;
+	color: #f2f2f2;
+	font-size:16px;
+}
+
+.s_logo {
+    font-size: 24px;
+    line-height: 54px;
+    
+}
+.l_logo {
+    color:#595959;
+    font-size: 36px;    
+}
+/* End Of Company Logo CSS */
+
+/* Navigation Bar CSS */
+
+.nav_container {
+    width: 100%;
+    background-color:#474747;
+    position: fixed;
+    top: 0;
+	left:0;
+    z-index: 99;
+	box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.4);
+}
+.inner_nav {
+	width:90%;
+}
+.navigation_div { font-family: raleway; }
+
+.nav_ul {
+    color: rgba(242, 242, 242, 0.3);
+	
+}
+.nav_li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+	padding-left:20px;
+}
+
+.nav_li:hover > a { color: #f2f2f2; padding-bottom:5px; border-bottom:1px solid #f2f2f2; border-top:1px solid #f2f2f2; padding-top:5px; }
+
+.nav_li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    padding:20px 0px 20px 0px ; 
+	border-bottom:1px solid #transparent;
+    font-weight: 700;
+    color: #f2f2f2;
+	transition:all .25s;
+	-webkit-transition:all .25s;
+    -moz-transition:all .25s;
+}
+
+
+/* End Of Navigation Bar CSS */
+
+/* Footer CSS */
+
+.footer_inner {
+    width: 90%;    
+}
+
+.footer {
+    padding:20px 0px 30px 0px;
+    background-color: #F6F6F6;
+    font-family: Roboto Slab;
+    background-image: url("../images/bg_images/dot-pattern.png");
+    background-position: -2px -2px;
+}
+.footer_heading a, .footer_heading {
+	text-decoration:none;
+    font-weight: 500 !important;
+    color: #282828 !important;
+    text-transform: uppercase !important;
+    font-size: 16px !important;
+	-webkit-transition:all .25s;
+}
+.footer_heading a:hover {
+color:rgba(0,0,0,0.5) !important;
+
+}
+.footer_heading_small {
+    font-weight: 500;
+    color: #282828;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.table_div {
+    display: inline-block;
+    background-color: #F6F6F6;
+    padding: 3px;
+}
+.footer_table td a,
+.a_con {
+    text-decoration: none;
+    color: #EF4836;
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-weight: 500;
+	
+}
+.a_con {
+line-height: 2.5;
+}
+.a_con:hover,
+.footer_table td a:hover,
+.least_footer a:hover { text-decoration: underline; color: #E74C3C; }
+
+.footer_table th,
+.footer_table td { padding-right: 52px }
+.footer_table td { padding-top: 10px }
+
+.footer_table {
+    text-align: left;
+    font-size: 14px;
+    border-collapse: separate;
+}
+
+.least_footer {
+    padding:5px 0px;
+    background-color: #474747;
+    color: #a3a3a3;
+    font-family: Roboto Slab;
+    font-weight: 300;
+}
+
+.least_footer a,
+.least_footer p {
+    text-decoration: none;
+    line-height: 70px !important;
+    font-size: 12px;
+	color: #f9f9f9;    
+}
+.copyright_p { display: inline-block }
+
+.lfLinks_li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+
+.social_media {
+    display: inline-block;
+    margin-top: 46px;
+    width: 590px;
+    background-color: #F6F6F6;
+    padding: 3px;
+}
+.sm_icons { margin-top: 14px }
+.sm_ico_li:hover { opacity: 1; -webkit-transform:scale(1.1); -moz-transform:scale(1.1); }
+
+.sm_ico_li {
+    -webkit-transition: all .15s;
+	-moz-transition: all .15s;
+    opacity: 0.8;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer_heading_small:nth-child(6) { margin-top: 25px }
+
+.footer_contact {
+    display: inline-block;
+    background-color: #F6F6F6;
+    padding: 3px;
+    padding-left: 20px;	
+    border-left: 2px solid #ededed;
+}
+.phone_input {
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 10px;
+	width:80%;
+}
+
+/* End Of Footer CSS */

@@ -1,0 +1,108 @@
+/* contains styling for compare page */
+
+.compare_wrapper {
+width:90%;
+
+
+}
+
+.vs {
+display:inline-block;
+
+}
+
+.selectors {
+text-align:center;
+}
+
+.myButton_small_rop {
+background-color: #00B7D8;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: raleway;
+    font-size: 14px;
+    text-decoration: none;
+    border:3px solid transparent;
+    -webkit-transition:all .15s;
+	-moz-transition:all .15s;
+    padding:7px 0px;
+	width:80px;
+	text-align:center;
+	
+}
+
+.myButton_small_rop:hover {
+    border:3px solid #00B7D8;
+    background-color: #fff;
+	color:#00B7D8;
+}
+.myButton_small_rop:active {
+    position: relative;
+    top: 1px;
+}
+/*table*/
+.prop_main {
+width:100%;
+font-family:raleway;
+text-align:center;
+}
+
+
+.prop_main td {
+border:2px solid #fff;
+padding:8px 0px;
+font-size:12px;
+text-align:left;
+padding-left:7px;
+
+}
+
+.td_main_color {
+background-color:#f9f9f9;
+}
+
+.td_alternate_color {
+background-color:#E7E7E7;
+}
+
+.prop_main tr>td:nth-child(1) {
+font-weight:bold;
+}
+
+.prop_main th {
+border:2px solid #fff;
+color:#fff;
+background-color:#f44535; 
+padding:7px 0px;
+}
+/*---------------------*/
+.display_area {
+width:100%;
+padding:60px 0px;
+}
+
+.fst_cont {
+width:50%;
+
+}
+.fst_item {
+width:85%;
+}
+
+select {
+width:100px;
+}
+
+
+.prop_pic {
+background-repeat:no-repeat;
+width:70%;
+height:300px;
+background-size:contain;
+background-position:center;
+}
+
+.props_table {
+margin-top:30px;
+}
